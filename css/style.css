@@ -102,11 +102,6 @@ header {
     min-height: 200px;
 }
 
-#hero .col {
-    /* Debug */
-    border: 1px solid black;
-}
-
 #hero {
     color: white;
 }
