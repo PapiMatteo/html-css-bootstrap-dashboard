@@ -57,7 +57,8 @@ header {
 .ms_left-col {
     width: 80px;
     height: 100%;
-    background: linear-gradient(to bottom left, #051e34 0%, #051e34 40%, #0c243a 40%, #0c243a 100%);
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
     /* Debug */
     border-right: 1px solid black;
 }
@@ -131,11 +132,34 @@ header {
 }
 
 .ms_large-col {
-    width: 50%;
+    width: 40%;
 }
 
-@media screen and (min-width: 992px) {
+.ms_large-col img {
+    width: 30px;
+}
+
+.ms_tag {
+    font-size: .8rem;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+}
+
+.ms_green {  
+    background-color: #198754;  
+}
+
+.ms_yellow {
+    background-color: #ffc107;
+}
+
+.ms_red {
+    background-color: #dc3545;
+}
+
+@media screen and (min-width: 1200px) {
     .ms_large-col {
-        width: 65%;
+        width: 50%;
     }
 }
