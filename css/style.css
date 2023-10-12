@@ -11,16 +11,43 @@ img {
 
 .ms_external-row {
     width: 100%;
-    height: calc(100% - 80px);
+    height: calc(100% - 60px);
     display: flex;
 }
 
 /* HEADER */
 header {
-    height: 80px;
+    height: 70px;
     background-color: #f7f7f7;
     /* Debug */
     border-bottom: 1px solid black;
+}
+
+.ms_row-height {
+    height: 50px;
+    background-color: white;
+}
+
+.ms_logo-mobile {
+    width: 50px;
+}
+
+.ms_logo-desktop {
+    width: 120px;
+}
+
+.ms_search-bar , .ms_search-bar input{
+    background-color: #e5e5e5;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.ms_header-button {
+    background: none;
+}
+
+.ms_bell i {
+    color: #ff8f00;
 }
 
 /* LEFT COL */
