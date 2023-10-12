@@ -11,16 +11,18 @@ img {
 
 .ms_external-row {
     width: 100%;
-    height: calc(100% - 60px);
+    height: calc(100% - 70px);
     display: flex;
+}
+
+.ms_container {
+    padding-top: 10px;
 }
 
 /* HEADER */
 header {
     height: 70px;
     background-color: #f7f7f7;
-    /* Debug */
-    border-bottom: 1px solid black;
 }
 
 .ms_row-height {
@@ -42,7 +44,7 @@ header {
     border-radius: 5px;
 }
 
-.ms_header-button {
+.ms_nav-button {
     background: none;
 }
 
@@ -63,6 +65,17 @@ header {
     .ms_left-col{
         width: 180px;
     }
+}
+
+/* Left Main */
+.ms_left-main {
+    color: white;
+    height: 100%;
+}
+
+.ms_nav-button i , .ms_nav-button span {
+    color: white;
+    background: none;
 }
 
 /* RIGHT COL */

@@ -20,13 +20,13 @@
     <div class="ms_wrapper">
         <!-- Header -->
         <header>
-            <div class="container-fluid pt-2">
+            <div class="container-fluid ms_container">
                 <div class="row ms_row-height align-items-center">
-                    <div class="col-2">
+                    <div class="col-auto">
                         <img class="ms_logo-mobile d-lg-none" src="img/mobile-logo.png" alt="">
                         <img class="ms_logo-desktop d-none d-lg-inline-block" src="img/logo.svg" alt="">
                     </div>
-                    <div class="col-9">
+                    <div class="col w-100">
                         <div class="d-flex ms_search-bar align-items-center">
                             <label class="px-2" for="search">
                                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -35,15 +35,17 @@
                                 placeholder="Prova a cercare: Lezioni di Lavarel">
                         </div>
                     </div>
-                    <div class="col-1">
+                    <div class="col-auto">
                         <ul class="d-flex list-unstyled ms_header-list mb-0 ">
-                            <li><button class="border-0 ms_header-button d-none d-lg-inline-block"><i class="fa-solid fa-list-ul"></i></button>
+                            <li><button class="border-0 ms_nav-button d-none d-lg-inline-block"><i
+                                        class="fa-solid fa-list-ul"></i></button>
                             </li>
-                            <li><button class="border-0 ms_header-button d-none d-lg-inline-block ms-lg-1"><i
+                            <li><button class="border-0 ms_nav-button d-none d-lg-inline-block ms-lg-1"><i
                                         class="fa-solid fa-circle-question"></i></button></li>
-                            <li><button class="border-0 ms_header-button d-none d-lg-inline-block ms-lg-1"><i
+                            <li><button class="border-0 ms_nav-button d-none d-lg-inline-block ms-lg-1"><i
                                         class="fa-solid fa-ellipsis-vertical"></i></button></li>
-                            <li><button class="border-0 ms_header-button ms_bell ms-lg-1"><i class="fa-solid fa-bell ms-lg-1"></i></button></li>
+                            <li><button class="border-0 ms_nav-button ms_bell ms-lg-1"><i
+                                        class="fa-solid fa-bell ms-lg-1"></i></button></li>
                         </ul>
                     </div>
                 </div>
@@ -55,7 +57,31 @@
             <!-- Left Col -->
             <div class="ms_left-col">
                 <!--Left Main -->
-                <main class="ms_left-main"></main>
+                <main class="ms_left-main">
+                    <div class="container h-100">
+                        <div class="row h-100 justify-content-between align-items-center flex-column">
+                            <div class="col-auto p-4">
+
+                                <ul class="list-unstyled">
+                                    <li class="pb-3"><button class="border-0 ms_nav-button"><i
+                                                class="fa-solid fa-house"></i><span
+                                                class="d-none d-lg-inline-block ps-2">Home</span></button></li>
+                                    <li class="pb-3"><button class="border-0 ms_nav-button"><i
+                                                class="fa-solid fa-chart-simple"></i><span
+                                                class="d-none d-lg-inline-block ps-3">Stats</span></button></li>
+                                    <li class="pb-3"><button class="border-0 ms_nav-button"><i
+                                                class="fa-solid fa-signal"></i><span
+                                                class="d-none d-lg-inline-block ps-2">Signal</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-auto">
+                                <button class="border-0 ms_nav-button pb-2"><i class="fa-solid fa-gear"></i><span class="d-none d-lg-inline-block ps-2"> Admin</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </main>
                 <!-- /Left Main -->
             </div>
             <!-- Left Col -->
